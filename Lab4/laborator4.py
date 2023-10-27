@@ -13,8 +13,6 @@ numar_clienti = poisson_d.rvs()
 timp_comanda = normal_d.rvs()
 timp_gatire = exponential_d.rvs()
 
-
-print(f"Alpha ={alpha}")
 print(f"Numar clienti: {numar_clienti}")
 print(f"Timp plasare comanda: {timp_comanda}")
 print(f"Timp gatire: {timp_gatire}")
