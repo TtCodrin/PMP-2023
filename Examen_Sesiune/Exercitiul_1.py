@@ -34,6 +34,7 @@ with pm.Model() as model:
 
 pm.summary(trace)
 
+#d)
 predict_age = 30
 predict_class = 2
 
