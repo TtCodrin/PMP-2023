@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import pymc as pm
-import arviz as az
 
 #a)
 data_frame = pd.read_csv('Titanic.csv');
