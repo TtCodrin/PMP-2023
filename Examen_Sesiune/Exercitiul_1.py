@@ -38,7 +38,7 @@ pm.summary(trace)
 predict_age = 30
 predict_class = 2
 
-data_to_predict = {'Age': predict_age, 'PClass': predict_class}
+data_to_predict = {'Age': predict_age, 'Pclass': predict_class}
 
 with model:
     predictions = pm.sample_posterior_predictive(trace, var_names=['Survived'], inputVals=[data_to_predict])
